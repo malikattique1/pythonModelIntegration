@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src=
+    "https://code.jquery.com/jquery-2.2.4.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0-alpha5/dist/tf.min.js"></script>
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    
+    <div>Teachable Machine Image Model</div>
+    <button type="button" onclick="init()">Start</button>
+    <div id="webcam-container"></div>
+    <div id="label-container"></div>
+    <img id="img" src="aaaaa.jpg" alt="G" width="224" height="224">
+    <!-- <img id="img" src="saff.png" alt="G" width="224" height="224"> -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    
+    
+
+    <h1>Digit Recognition WebApp</h1>
+    <div id="paint">
+        <canvas id="myCanvas"></canvas>
+    </div>
+    <div id="predicted">
+        Recognized digit
+        <div id="number"></div>
+        <button id="clear">Clear</button>
+    </div>
+
+
+    
+    <script src="script.js"></script>
+</body>
+
+
+</html>
